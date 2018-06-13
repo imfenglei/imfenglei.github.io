@@ -11,7 +11,8 @@ public class ConfigClientController {
 
     @Value("${env}")
 	String env;
-	
+
+    // test hi
 	@RequestMapping("/hi")
 	public String hi(){
 		return env;
